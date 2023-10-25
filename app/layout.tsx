@@ -29,6 +29,7 @@ export default function RootLayout({
           <NavBar />
           <main className="p-5">{children}</main>
         </AuthProvider>
+        <div></div>
       </body>
     </html>
   );
